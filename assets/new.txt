@@ -1,0 +1,16 @@
+For what minimum value of x in a 32-bit Linux OS would make the size of s equal to 8 bytes?
+struct temp
+{
+int a :13;
+int b :8;
+int c : x;
+} s ///
+#pragma exit is primarily used for?///
+Find the output of the following program:
+int main()
+{
+int a=5;
+float b=1.234;
+printf(&quot;%.*f&quot;,a,b);
+return 0;
+}///
