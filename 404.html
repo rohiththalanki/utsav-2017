@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="babies" style="height: 100%;overflow-x:hidden;background: url('assets/back.jpg') no-repeat center center fixed; background-size: cover">
+<head>
+  <meta charset="utf-8">
+  <title>Utsavs</title>
+  <base href="/utsav/">
+<link rel="stylesheet" href="assets/files/boot.css">
+  <script src="assets/files/jquery.js"></script>
+<script src="assets/files/popper.js"></script>
+<script src="assets/files/boot.js"></script>
+  <script src="assets/files/prettify.js"></script>
+<link rel="stylesheet" href="assets/files/tomorrow-night.css">
+  <link rel="stylesheet" href="assets/card.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+  <script src="assets/files/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBJIcZS6Cno-p2m4Xjl_qA3PVItLWLVGJQ",
+      authDomain: "utsav-397ba.firebaseapp.com",
+      databaseURL: "https://utsav-397ba.firebaseio.com",
+      projectId: "utsav-397ba",
+      storageBucket: "utsav-397ba.appspot.com",
+      messagingSenderId: "317790149977"
+    };
+    firebase.initializeApp(config);
+  </script>
+</head>
+<body style="background: transparent" >
+<div class="loader" style="display: none">
+  <div id="circle_container">
+    <div id="stars"></div>
+    <div id="load_wrapper">
+      <div id="sun"></div>
+      <div id="moon"></div>
+    </div>
+  </div>
+  <h1 id="loading_text" style="font-family: 'Bungee', cursive;color:#08bfbb;">Loading</h1>
+</div>
+<div class="contents">
+  <app-root></app-root>
+</div>
+
+<link rel="stylesheet" href="assets/files/loader.css">
+<script src="assets/files/loader.js"></script>
+
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
